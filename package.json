@@ -1,0 +1,20 @@
+{
+  "name": "twitterOperations",
+  "description": "twitter api operations",
+  "version": "0.0.1",
+  "private": false,
+  "author": "Mashwork",
+  "keywords": ["twitter"],
+  "dependencies": {
+    "underscore": "latest",
+    "ntwitter": "latest"
+  },
+  "devDependencies": {
+    "jasmine-node": "1.0.x"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/mashwork/twitterOperations.git"
+  },
+  "engines": { "node": "*" }
+}
