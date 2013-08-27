@@ -7,7 +7,7 @@ var twitter = require("ntwitter"),
 console.log("screenNames = %j", screenNames);
 console.log("https://api.twitter.com/1.1/followers/ids.json")
 
-var timeout = 500;
+var timeout = 60000;
 
 async.mapSeries(
 	screenNames,
