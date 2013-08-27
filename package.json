@@ -4,17 +4,24 @@
   "version": "0.0.1",
   "private": false,
   "author": "Mashwork",
-  "keywords": ["twitter"],
+  "keywords": [
+    "twitter"
+  ],
   "dependencies": {
     "underscore": "latest",
-    "ntwitter": "latest"
+    "ntwitter": "latest",
+    "lodash": "~1.3.1",
+    "q": "~0.9.6",
+    "async": "~0.2.9"
   },
   "devDependencies": {
     "jasmine-node": "1.0.x"
   },
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "https://github.com/mashwork/twitterOperations.git"
   },
-  "engines": { "node": "*" }
+  "engines": {
+    "node": "*"
+  }
 }
